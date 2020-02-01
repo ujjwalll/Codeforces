@@ -1,0 +1,10 @@
+a=input()
+b=input()
+z=a.lower()
+v=b.lower()
+if(z>v):
+	print("1")
+elif(z==v):
+	print("0")
+else:
+	print("-1")
